@@ -1,0 +1,64 @@
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url("images/food-bg.png") no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .signup-container {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            width: 350px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        .signup-container h2 {
+            margin-bottom: 20px;
+            color: #ff4d00;
+        }
+
+        .signup-container input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        .signup-btn {
+            background-color: #ff4d00;
+            color: white;
+            border: none;
+            padding: 12px;
+            width: 100%;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .signup-btn:hover {
+            background-color: #e04300;
+        }
+
+        .login-link {
+            margin-top: 15px;
+            display: block;
+            font-size: 14px;
+        }
+
+        .login-link a {
+            color: #ff4d00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .login-link a:hover {
+            text-decoration: underline;
+        }
